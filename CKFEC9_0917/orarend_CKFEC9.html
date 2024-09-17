@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        table:hover {
+            transform: scale(1.02);
+        }
+
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            text-align: center;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        th.day-header {
+            background-color: #444;
+        }
+
+        th.time-header {
+            background-color: #555;
+        }
+
+        td.subject-cell:hover {
+            background-color: #e0e0e0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mérnökinformatikus Órarend</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th class="day-header">Időpont</th>
+                    <th class="day-header">Hétfő</th>
+                    <th class="day-header">Kedd</th>
+                    <th class="day-header">Szerda</th>
+                </tr>
+				 <tr>
+                    <th class="time-header">8:00 - 10:00</th>
+                    <td></td>
+                    <td class="subject-cell">Fizika II<br>Előadás<br>Nagy Ádám</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="time-header">10:00 - 12:00</th>
+                    <td class="subject-cell">Számítógép Hálózatok üz<br>Előadás<br>Dr. Kovács Szilveszter</td>
+					<td class="subject-cell">Adatkezelés XML-ben<br>Előadás<br>Dr. Bednarik László</td>
+					<td class="subject-cell">Mesterséges Intelligencia<br>Gyakorlat<br>Fazekas Levente</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="time-header">12:00 - 14:00</th>
+                    <td class="subject-cell">Korszerű információs tech.<br>Előadás<br>Dr. Árvai László</td>
+					<td class="subject-cell">Adatkezelés XML-ben<br>Előadás<br>Dr. Bednarik László</td>
+					<td class="subject-cell">Fizika II<br>Gyakorlat<br>Nagy Ádám</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="time-header">16:00 - 18:00</th>
+                    <td></td>
+                    <td></td>
+                    <td class="subject-cell">Korszerű információs tech.<br>Gyakorlat<br>Soós Róbert</td>
+                </tr>
+               
+               
+                <tr>
+                    <th class="time-header">14:00 - 16:00</th>
+                    <td></td>
+                    <td></td>
+                    <td class="subject-cell">El.Technika-elektronika<br>Gyakorlat<br>Palla Gyula</td>
+                </tr>
+                <tr>
+                    <th class="time-header">16:00 - 18:00</th>
+                    <td></td>
+                    <td></td>
+                    <td class="subject-cell">Mesterséges Intelligencia<br>Gyakorlat<br>Fazekas Levente</td>
+                </tr>
+            </thead>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mérnökinformatikus Órarend</p>
+    </footer>
+</body>
+</html>

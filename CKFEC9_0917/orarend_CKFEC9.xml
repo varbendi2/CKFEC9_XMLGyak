@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CKFEC9_orarend>
+	<ora id="1" tipus="eloadas">
+		<targy nev="Számítógép Hálózatok üz"></targy>
+		<idopont>
+			<nap napn="Hétfő"></nap>
+			<tol tolt="10:00"></tol>
+			<ig igt="12:00"></ig>
+		</idopont>
+		<helyszin hol="In/103"></helyszin>
+		<oktato neve="Dr. Kovács Szilveszter"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="2" tipus="eloadas">
+		<targy nev="Korszerű információs tech."></targy>
+		<idopont>
+			<nap napn="Hétfő"></nap>
+			<tol tolt="12:00"></tol>
+			<ig igt="14:00"></ig>
+		</idopont>
+		<helyszin hol="In/103"></helyszin>
+		<oktato neve="Dr. Árvai László"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="3" tipus="eloadas">
+		<targy nev="Fizika II"></targy>
+		<idopont>
+			<nap napn="Kedd"></nap>
+			<tol tolt="8:00"></tol>
+			<ig igt="10:00"></ig>
+		</idopont>
+		<helyszin hol="A3 301"></helyszin>
+		<oktato neve="Nagy Ádám"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	
+	<ora id="4" tipus="eloadas">
+		<targy nev="Adatkezelés XML-ben"></targy>
+		<idopont>
+			<nap napn="Kedd"></nap>
+			<tol tolt="10:00"></tol>
+			<ig igt="14:00"></ig>
+		</idopont>
+		<helyszin hol="In/103"></helyszin>
+		<oktato neve="Dr. Bednarik László"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	
+	<ora id="5" tipus="gyakorlat">
+		<targy nev="Korszerű információs tech."></targy>
+		<idopont>
+			<nap napn="Szerda"></nap>
+			<tol tolt="16:00"></tol>
+			<ig igt="18:00"></ig>
+		</idopont>
+		<helyszin hol="In/15"></helyszin>
+		<oktato neve="Soós Róbert"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="6" tipus="eloadas">
+		<targy nev="Mesterséges Intelligencia"></targy>
+		<idopont>
+			<nap napn="Szerda"></nap>
+			<tol tolt="10:00"></tol>
+			<ig igt="12:00"></ig>
+		</idopont>
+		<helyszin hol="E32"></helyszin>
+		<oktato neve="Fazekas Levente"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="7" tipus="gyakorlat">
+		<targy nev="Fizika II"></targy>
+		<idopont>
+			<nap napn="Kedd"></nap>
+			<tol tolt="12:00"></tol>
+			<ig igt="14:00"></ig>
+		</idopont>
+		<helyszin hol="A3 311"></helyszin>
+		<oktato neve="Nagy Ádám"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="8" tipus="gyakorlat">
+		<targy nev="El.Technika-elektronika"></targy>
+		<idopont>
+			<nap napn="Szerda"></nap>
+			<tol tolt="14:00"></tol>
+			<ig igt="16:00"></ig>
+		</idopont>
+		<helyszin hol="A1/312"></helyszin>
+		<oktato neve="Palla Gyula"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+	
+	<ora id="9" tipus="gyakorlat">
+		<targy nev="Mesterséges Intelligencia"></targy>
+		<idopont>
+			<nap napn="Szerda"></nap>
+			<tol tolt="16:00"></tol>
+			<ig igt="18:00"></ig>
+		</idopont>
+		<helyszin hol="E32"></helyszin>
+		<oktato neve="Fazekas Levente"></oktato>
+		<szak sznev="Mérnökinformatikus"></szak>
+	</ora>
+</QTFL19_orarend>
