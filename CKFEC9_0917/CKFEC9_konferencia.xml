@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim id="1">Adatkezelés XML-ben</cim>
+    <hallgatok id="2">
+    
+        <hallgato>
+            <nev>Varga Bence</nev>
+            <lakcim>3532, Miskolc Szabadság utca 10</lakcim>
+        </hallgato>
+
+        <hallgato>
+            <nev>Kola Sándor</nev>
+            <lakcim>4080, Hajdunánás Jókai 54</lakcim>
+        </hallgato>
+
+    </hallgatok>
+    <helyszin id="3">inf/103 előadó</helyszin>
+    <eloado id="4">
+        <nev>Dr Bednarik László</nev>
+        <adoszam></adoszam>
+        <lakcim></lakcim>
+    </eloado>
+    <datum id="5">2024. Szeptember 17</datum>
+</konferencia>
