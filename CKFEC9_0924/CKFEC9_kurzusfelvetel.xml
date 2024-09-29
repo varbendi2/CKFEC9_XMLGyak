@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EG55OI_kurzusfelvetel tanev="2024/25" egyetem="ME">
+    <hallgato>
+        <hnev>Varga Bence</hnev>
+        <szulev>2001</szulev>
+        <szak evf="4">Mernokinformatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIAL32B-B">
+            <kurzusnev>Oracle Rendszergazda</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Hetfo:8-10</idopont>
+            <oktato>Dr. Kovacs Laszlo</oktato>
+            <oraado>Szucs Miklos</oraado>
+        </kurzus>
+
+        <kurzus id="GEIAL31G-B", jovahagyas="igen", nyelv="magyar">
+            <kurzusnev>Korszeru informacios technologiak</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Hetfo:12-14</idopont>
+            <oktato>Dr. Arvai Laszlo</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAL335-B">
+            <kurzusnev>Mobilprogramozas alapjai</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/102</hely>
+            <idopont>Hetfo:16-20</idopont>
+            <oktato>Dr. Agardi Anita</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAK120-B">
+            <kurzusnev>Integralt vallalati rendszerek</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Kedd:8-10</idopont>
+            <oktato>Dr. Kulcsarne Forrai Monika</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAL332-B", jovahagyas="igen", nyelv="magyar">
+            <kurzusnev>Adatkezeles XML-ben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Kedd:10-14</idopont>
+            <oktato>Dr. Bednarik Laszlo</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAK130-B">
+            <kurzusnev>Mesterseges Intelligencia</kurzusnev>
+            <kredit>5</kredit>
+            <hely>A1/217</hely>
+            <idopont>Szerda:10-12</idopont>
+            <oktato>Kunne Dr. Tamas Judit</oktato>
+            <oraado>Fazekas Levente</oraado>
+        </kurzus>
+		
+		<kurzus id="GEFIT012-B">
+            <kurzusnev>Fizika II</kurzusnev>
+            <kredit>3</kredit>
+            <hely>A1/312</hely>
+            <idopont>Kedd:8-10</idopont>
+            <oktato>Nagy Adam</oktato>
+            <oraado>Nagy Adam</oraado>
+        </kurzus>
+		
+		<kurzus id="GEIAL30H-B">
+            <kurzusnev>Számítógép hálózat üzemeltetési alapismeretek II.</kurzusnev>
+            <kredit>3</kredit>
+            <hely>In/103</hely>
+            <idopont>Hetfo:10-12</idopont>
+            <oktato>Dr. Kovács Szilveszter</oktato>
+            <oraado>Dr. Kovács Szilveszter</oraado>
+        </kurzus>
+    </kurzusok>
