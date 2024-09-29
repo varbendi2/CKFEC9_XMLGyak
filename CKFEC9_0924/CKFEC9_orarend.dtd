@@ -1,0 +1,14 @@
+<!DOCTYPE orarend [
+    <!ELEMENT orarend (ora+)>
+    <!ELEMENT ora (targy, idopont, helyszin, oktato, szak)>
+    <!ATTLIST ora id ID #REQUIRED>
+    <!ATTLIST ora tipus (eloadas|gyakorlat) #REQUIRED>
+    <!ELEMENT targy (#PCDATA)>
+    <!ELEMENT idopont EMPTY>
+    <!ATTLIST idopont nap (Hetfo|Kedd|Szerda|Csutortok|Pentek) #REQUIRED>
+    <!ATTLIST idopont tol CDATA #REQUIRED>
+    <!ATTLIST idopont ig CDATA #REQUIRED>
+    <!ELEMENT helyszin (#PCDATA)>
+    <!ELEMENT oktato (#PCDATA)>
+    <!ELEMENT szak (#PCDATA)>
+]>
