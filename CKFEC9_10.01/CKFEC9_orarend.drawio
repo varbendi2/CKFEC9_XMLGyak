@@ -1,0 +1,506 @@
+{
+  "version": 2,
+  "www": "erdplus.com",
+  "shapes": [
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Orarend",
+        "type": "regular",
+        "x": 783,
+        "y": 60.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 1
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "Óra",
+        "type": "regular",
+        "x": 785,
+        "y": 264.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 2
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "része",
+        "isIdentifying": false,
+        "x": 783,
+        "y": 167,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "mandatory",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 2
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 1
+          }
+        ],
+        "id": 3
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "ID",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": true,
+        "x": 894,
+        "y": 218.5,
+        "id": 6
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "tipus",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 916,
+        "y": 284.5,
+        "id": 9
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "tárgy",
+        "type": "regular",
+        "x": 914,
+        "y": 454.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 54
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "időpont",
+        "type": "regular",
+        "x": 1062,
+        "y": 360.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 55
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "helyszín",
+        "type": "regular",
+        "x": 559,
+        "y": 162.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 56
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "oktató",
+        "type": "regular",
+        "x": 515,
+        "y": 340.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 57
+      }
+    },
+    {
+      "type": "Entity",
+      "details": {
+        "name": "szak",
+        "type": "regular",
+        "x": 662,
+        "y": 448.5,
+        "isDisjointed": true,
+        "isTotalSpecialization": true,
+        "isSubtype": false,
+        "supertypeEntityId": null,
+        "id": 58
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "Neve",
+        "isIdentifying": false,
+        "x": 814,
+        "y": 399,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 2
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 54
+          }
+        ],
+        "id": 60
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "mikor",
+        "isIdentifying": false,
+        "x": 896,
+        "y": 358,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 55
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 2
+          }
+        ],
+        "id": 63
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "honnan",
+        "isIdentifying": false,
+        "x": 721,
+        "y": 362,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 58
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 2
+          }
+        ],
+        "id": 66
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "tartja",
+        "isIdentifying": false,
+        "x": 641,
+        "y": 286,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 57
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 2
+          }
+        ],
+        "id": 69
+      }
+    },
+    {
+      "type": "Relationship",
+      "details": {
+        "name": "hol",
+        "isIdentifying": false,
+        "x": 672,
+        "y": 214,
+        "slots": [
+          {
+            "slotIndex": 0,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "one",
+            "role": "",
+            "entityId": 56
+          },
+          {
+            "slotIndex": 1,
+            "minimum": "",
+            "maximum": "",
+            "participation": "unspecified",
+            "cardinality": "unspecified",
+            "role": "",
+            "entityId": 2
+          }
+        ],
+        "id": 75
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "nap",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1062,
+        "y": 276.5,
+        "id": 78
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "mettől",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1195,
+        "y": 328.5,
+        "id": 80
+      }
+    },
+    {
+      "type": "Attribute",
+      "details": {
+        "name": "meddig",
+        "isDerived": false,
+        "isMultivalued": false,
+        "isOptional": false,
+        "isComposite": false,
+        "isUnique": false,
+        "x": 1194,
+        "y": 410.5,
+        "id": 82
+      }
+    }
+  ],
+  "connectors": [
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 4
+      },
+      "source": 2,
+      "destination": 3
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 5
+      },
+      "source": 1,
+      "destination": 3
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 73
+      },
+      "source": 6,
+      "destination": 2
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 74
+      },
+      "source": 9,
+      "destination": 2
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 61
+      },
+      "source": 2,
+      "destination": 60
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 62
+      },
+      "source": 54,
+      "destination": 60
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 64
+      },
+      "source": 55,
+      "destination": 63
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 65
+      },
+      "source": 2,
+      "destination": 63
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 67
+      },
+      "source": 58,
+      "destination": 66
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 68
+      },
+      "source": 2,
+      "destination": 66
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 70
+      },
+      "source": 57,
+      "destination": 69
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 71
+      },
+      "source": 2,
+      "destination": 69
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 0,
+        "id": 76
+      },
+      "source": 56,
+      "destination": 75
+    },
+    {
+      "type": "RelationshipConnector",
+      "details": {
+        "slotIndex": 1,
+        "id": 77
+      },
+      "source": 2,
+      "destination": 75
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 79
+      },
+      "source": 78,
+      "destination": 55
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 81
+      },
+      "source": 80,
+      "destination": 55
+    },
+    {
+      "type": "Connector",
+      "details": {
+        "id": 83
+      },
+      "source": 82,
+      "destination": 55
+    }
+  ],
+  "width": 2000,
+  "height": 1000
+}
