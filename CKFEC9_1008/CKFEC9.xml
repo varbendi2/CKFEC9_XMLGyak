@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EG55OI_vendeglatas xmlns:xsi="http://www.w3.org">
+
+<etterem ekod="e1">
+    <nev>Trófea</nev>
+    <cim>
+        <varos>Budapest</varos>
+        <utca>Visegrádi utca</utca>
+        <hazszam>13.</hazszam>
+    </cim>
+    <csillag>4</csillag>
+</etterem>
+
+<etterem ekod="e2">
+    <nev>Gundel</nev>
+    <cim>
+        <varos>Budapest</varos>
+        <utca>Állatkerti körút</utca>
+        <hazszam>2.</hazszam>
+    </cim>
+    <csillag>5</csillag>
+</etterem>
+
+<foszakacs fkod="f1" e_f="e1">
+    <nev>Havas Viktor</nev>
+    <eletkor>48</eletkor>
+    <vegzettseg>Le Cordon Bleu</vegzettseg>
+    <vegzettseg>Szakközépiskola</vegzettseg>
+    <vegzettseg>Szakácsképző</vegzettseg>
+</foszakacs>
+
+<foszakacs fkod="f2" e_f="e2">
+    <nev>Kovács András</nev>
+    <eletkor>52</eletkor>
+    <vegzettseg>Michelin Képző</vegzettseg>
+</foszakacs>
+
+<rendeles e_k="e1" v_k="v1">
+    <osszeg>5000</osszeg>
+    <etel>Pörkölt</etel>
+</rendeles>
+
+<rendeles e_k="e2" v_k="v1">
+    <osszeg>12000</osszeg>
+    <etel>Libamáj</etel>
+</rendeles>
+
+<rendeles e_k="e2" v_k="v2">
+    <osszeg>8000</osszeg>
+    <etel>Halas tál</etel>
+</rendeles>
+
+<rendeles e_k="e1" v_k="v2">
+    <osszeg>4000</osszeg>
+    <etel>Rántott hús</etel>
+</rendeles>
+
+<gyakornok gykod="gy1" e_gy="e1">
+    <nev>Boda Dániel</nev>
+    <gyakorlat>
+        <kezdete>2024-10-08</kezdete>
+        <idotartama>3 hónap</idotartama>
+    </gyakorlat>
+    <muszak>délelőtt</muszak>
+    <muszak>délután</muszak>
+</gyakornok>
+
+<gyakornok gykod="gy2" e_gy="e2">
+    <nev>Tóth Ákos</nev>
+    <gyakorlat>
+        <kezdete>2024-09-01</kezdete>
+        <idotartama>6 hónap</idotartama>
+    </gyakorlat>
+    <muszak>délelőtt</muszak>
+</gyakornok>
+
+<vendeg vkod="v1">
+    <nev>Szatmári Péter</nev>
+    <eletkor>35</eletkor>
+    <cim>
+        <varos>Budapest</varos>
+        <utca>József körút</utca>
+        <hazszam>19</hazszam>
+    </cim>
+</vendeg>
+
+<vendeg vkod="v2">
+    <nev>Kiss Anna</nev>
+    <eletkor>28</eletkor>
+    <cim>
+        <varos>Debrecen</varos>
+        <utca>Fő utca</utca>
+        <hazszam>10</hazszam>
+    </cim>
+</vendeg>
+
+</EG55OI_vendeglatas>
