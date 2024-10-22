@@ -1,0 +1,13 @@
+<hallgatok>
+    <hallgato id="1">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Varga</vezeteknev>
+        <foglalkozas>Programozó</foglalkozas>
+    </hallgato>
+    <hallgato id="2">
+        <keresztnev>Anna</keresztnev>
+        <vezeteknev>Szép</vezeteknev>
+        <foglalkozas>Tanár</foglalkozas>
+    </hallgato>
+    <!-- További hallgatók -->
+</hallgatok>
