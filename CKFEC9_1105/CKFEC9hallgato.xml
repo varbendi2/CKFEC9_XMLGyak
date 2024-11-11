@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hallgatok>
+    <hallgato id="01">
+        <keresztnev>Pal</keresztnev>
+        <vezetknev>Kiss</vezetknev>
+        <foglalkozas>Web Developer</foglalkozas>
+    </hallgato>
+    <hallgato id="02">
+        <keresztnev>Piroska</keresztnev>
+        <vezetknev>Vigh</vezetknev>
+        <foglalkozas>Java Programozo</foglalkozas>
+    </hallgato>
+    <hallgato id="03">
+        <keresztnev>Ferenc</keresztnev>
+        <vezetknev>Nagy</vezetknev>
+        <foglalkozas>Associate Professor</foglalkozas>
+    </hallgato>
+</hallgatok>

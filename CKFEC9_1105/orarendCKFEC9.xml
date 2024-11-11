@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CKFEC9_orarend>
+
+    <ora id="Oracle" tipus="eloadas">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Dr. Kovacs Laszlo Jozsef</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="KorszInf" tipus="eloadas">
+        <targy>Korszeru Informacios Technologiak</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>Inf/15</helyszin>
+        <oktato>Arvai Laszlo Lajos</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="XML" tipus="eloadas">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="XML" tipus="gyakorlat">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="Oracle" tipus="gyakorlat">
+        <targy>Oracle rendszergazda</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>13:00</tol>
+            <ig>15:00</ig>
+        </idopont>
+        <helyszin>Inf/202</helyszin>
+        <oktato>Szucs Miklos</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="WebAlk" tipus="eloadas">
+        <targy>Webes Alkalmazasok (Java)</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Inf/102</helyszin>
+        <oktato>Dr. Barabas Peter</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="WebAlk" tipus="gyakorlat">
+        <targy>Webes Alkalmazasok (Java)</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Inf/102</helyszin>
+        <oktato>Dr. Barabas Peter</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="KorszInf" tipus="gyakorlat">
+        <targy>Korszeru Informacios Technologiak</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Inf/15</helyszin>
+        <oktato>Soos Robert</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="MesInt" tipus="eloadas">
+        <targy>Mesterseges Intelligencia Alapok</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>E 32</helyszin>
+        <oktato>Kunne Dr. Tamas Judit</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+    <ora id="MesInt" tipus="gyakorlat">
+        <targy>Mesterseges Intelligencia Alapok</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>E 10</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mernokinformatikus BsC</szak>
+    </ora>
+
+</CKFEC9_orarend>
