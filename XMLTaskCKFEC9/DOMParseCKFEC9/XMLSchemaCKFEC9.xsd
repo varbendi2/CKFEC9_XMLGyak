@@ -1,0 +1,99 @@
+<!-- XMLSchema fájl a hibajegy adatbázis XML validálására -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Saját típus a kapcsolattartói adatokhoz -->
+    <xs:complexType name="KapcsolattartoiAdatokType">
+        <xs:sequence>
+            <xs:element name="Email" type="xs:string"/>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Telefonszam" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Saját típus a hiba adatokhoz -->
+    <xs:complexType name="HibaType">
+        <xs:sequence>
+            <xs:element name="Hibakod" type="xs:string" minOccurs="0"/>
+            <xs:element name="HibaLeiras" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Hibajegy rekord típus definiálása -->
+    <xs:complexType name="HibajegyRecordType">
+        <xs:sequence>
+            <xs:element name="KapcsolattartoiAdatok" type="KapcsolattartoiAdatokType"/>
+            <xs:element name="TV" type="TVType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="Telefon" type="TelefonType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="Internet" type="InternetType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="JegyID" type="xs:ID" use="required"/>
+    </xs:complexType>
+
+    <!-- TV típus definiálása -->
+    <xs:complexType name="TVType">
+        <xs:sequence>
+            <xs:element name="MTID" type="xs:string"/>
+            <xs:element name="Hiba" type="HibaType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Telefon típus definiálása -->
+    <xs:complexType name="TelefonType">
+        <xs:sequence>
+            <xs:element name="Telefonszam" type="xs:string"/>
+            <xs:element name="Hiba">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Hang" type="xs:string"/>
+                        <xs:element name="Leiras" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Internet típus definiálása -->
+    <xs:complexType name="InternetType">
+        <xs:sequence>
+            <xs:element name="InternetID" type="xs:string"/>
+            <xs:element name="Hiba">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="LEDek" type="xs:string"/>
+                        <xs:element name="Leiras" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Gyökérelem: Hibajegy -->
+    <xs:element name="Hibajegy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="HibajegyRecord" type="HibajegyRecordType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!-- Elsődleges kulcs: JegyID -->
+        <xs:key name="HibajegyPrimaryKey">
+            <xs:selector xpath="HibajegyRecord"/>
+            <xs:field xpath="@JegyID"/>
+        </xs:key>
+
+        <!-- Idegen kulcsok a JegyID-ra mutatnak -->
+        <xs:keyref name="TV_JegyID_FK" refer="HibajegyPrimaryKey">
+            <xs:selector xpath="HibajegyRecord/TV"/>
+            <xs:field xpath="@MTID"/>
+        </xs:keyref>
+        <xs:keyref name="Telefon_JegyID_FK" refer="HibajegyPrimaryKey">
+            <xs:selector xpath="HibajegyRecord/Telefon"/>
+            <xs:field xpath="Telefonszam"/>
+        </xs:keyref>
+        <xs:keyref name="Internet_JegyID_FK" refer="HibajegyPrimaryKey">
+            <xs:selector xpath="HibajegyRecord/Internet"/>
+            <xs:field xpath="InternetID"/>
+        </xs:keyref>
+    </xs:element>
+
+</xs:schema>

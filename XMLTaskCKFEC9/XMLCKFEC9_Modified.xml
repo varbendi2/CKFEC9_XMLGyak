@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- XML dokumentum a hibajegy adatbázis alapján --><Hibajegy>
+    <!-- Hibajegy 1 -->
+    <HibajegyRecord JegyID="1">
+        <KapcsolattartoiAdatok>
+            <Email>elso@gmail.com</Email>
+            <Nev>Varga Bence</Nev>
+            <Telefonszam>36705026225</Telefonszam>
+        </KapcsolattartoiAdatok>
+        <TV>
+            <MTID>123456789</MTID>
+            <Hiba>
+                <Hibakod>E:404</Hibakod>
+                <HibaLeiras>Nincs kép</HibaLeiras>
+            </Hiba>
+        </TV>
+        <Telefon>Módosított tartalom</Telefon>
+        <Internet>
+            <InternetID>1548155</InternetID>
+            <Hiba>
+                <LEDek>LAN</LEDek>
+                <Leiras>Nincs wifi</Leiras>
+            </Hiba>
+        </Internet>
+    </HibajegyRecord>
+    
+    <!-- Hibajegy 2 -->
+    <HibajegyRecord JegyID="2">
+        <KapcsolattartoiAdatok>
+            <Email>kak@gmail.com</Email>
+            <Nev>Kakk Ukk</Nev>
+            <Telefonszam>36705048557</Telefonszam>
+        </KapcsolattartoiAdatok>
+        <TV>
+            <MTID>785495789</MTID>
+            <Hiba>
+                <Hibakod/>
+                <HibaLeiras>Nincs hang</HibaLeiras>
+            </Hiba>
+        </TV>
+        <Telefon>
+            <Telefonszam>36705048557</Telefonszam>
+            <Hiba>
+                <Hang>Teljesen süket</Hang>
+                <Leiras>Hívás közben nem hallom a hangot</Leiras>
+            </Hiba>
+        </Telefon>
+        <Internet>
+            <InternetID>1548125</InternetID>
+            <Hiba>
+                <LEDek>WIFI 2.4GHZ</LEDek>
+                <Leiras>Nincs internet</Leiras>
+            </Hiba>
+        </Internet>
+    </HibajegyRecord>
+    
+    <!-- Hibajegy 3 -->
+    <HibajegyRecord JegyID="3">
+        <KapcsolattartoiAdatok>
+            <Email>ubul@gmail.com</Email>
+            <Nev>Ubul Feri</Nev>
+            <Telefonszam>36307584698</Telefonszam>
+        </KapcsolattartoiAdatok>
+        <TV>
+            <MTID>854857825</MTID>
+            <Hiba>
+                <Hibakod>E:504</Hibakod>
+                <HibaLeiras>Akadozik az adás</HibaLeiras>
+            </Hiba>
+        </TV>
+        <Telefon>
+            <Telefonszam>36307584698</Telefonszam>
+            <Hiba>
+                <Hang>Kettő sípolás</Hang>
+                <Leiras>Amikor hívok egy számot kettő sípolást hallok</Leiras>
+            </Hiba>
+        </Telefon>
+        <Internet>
+            <InternetID>5955845</InternetID>
+            <Hiba>
+                <LEDek>Power</LEDek>
+                <Leiras>Csak bepakcsol, nincs internet</Leiras>
+            </Hiba>
+        </Internet>
+    </HibajegyRecord>
+<ÚjElem>Új tartalom</ÚjElem></Hibajegy>
