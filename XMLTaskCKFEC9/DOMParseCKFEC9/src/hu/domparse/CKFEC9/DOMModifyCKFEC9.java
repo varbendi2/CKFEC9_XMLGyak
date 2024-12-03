@@ -1,4 +1,4 @@
-package hu.domparse.neptunkod;
+package hu.domparse.CKFEC9;
 
 import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
@@ -12,7 +12,7 @@ public class DOMModifyCKFEC9 {
     public static void main(String[] args) {
         try {
             // XML dokumentum betöltése
-            File inputFile = new File("C:\\Users\\varbendi\\Desktop\\xml\\DOMParseCKFEC9\\XMLCKFEC9.xml");
+            File inputFile = new File("DOMParseCKFEC9\\XMLCKFEC9.xml");
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(inputFile);
