@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- XML dokumentum a hibajegy adatbázis alapján --><Hibajegy>
     <!-- Hibajegy 1 -->
-    <HibajegyRecord JegyID="1">
+    <Hibajegy JegyID="1">
         <KapcsolattartoiAdatok>
             <Email>elso@gmail.com</Email>
             <Nev>Varga Bence</Nev>
@@ -27,10 +27,10 @@
                 <Leiras>Nincs wifi</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
+    </Hibajegy>
     
     <!-- Hibajegy 2 -->
-    <HibajegyRecord JegyID="2">
+    <Hibajegy JegyID="2">
         <KapcsolattartoiAdatok>
             <Email>kak@gmail.com</Email>
             <Nev>Kakk Ukk</Nev>
@@ -57,10 +57,10 @@
                 <Leiras>Nincs internet</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
+    </Hibajegy>
     
     <!-- Hibajegy 3 -->
-    <HibajegyRecord JegyID="3">
+    <Hibajegy JegyID="3">
         <KapcsolattartoiAdatok>
             <Email>ubul@gmail.com</Email>
             <Nev>Ubul Feri</Nev>
@@ -87,5 +87,5 @@
                 <Leiras>Csak bepakcsol, nincs internet</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
-</Hibajegy>
+    </Hibajegy>
+<Hibajegy JegyID="4"><KapcsolattartoiAdatok><Email>ujemail@gmail.com</Email><Nev>Kis Pista</Nev><Telefonszam>36123456789</Telefonszam></KapcsolattartoiAdatok><TV><MTID>987654321</MTID><Hiba><Hibakod>E:505</Hibakod><HibaLeiras>Fagy a kép</HibaLeiras></Hiba></TV><Telefon><Telefonszam>36123456789</Telefonszam><Hiba><Hang>Egy rövid sípolás</Hang><Leiras>Kattogás a vonalban</Leiras></Hiba></Telefon><Internet><InternetID>258963</InternetID><Hiba><LEDek>Power</LEDek><Leiras>Nem csatlakozik az internet</Leiras></Hiba></Internet></Hibajegy><Felvetel FelvetelID="1"><Eszkoz>TV</Eszkoz><Leiras>Hibajavítás elkezdődött</Leiras></Felvetel><Felvetel FelvetelID="2"><Eszkoz>Telefon</Eszkoz><Leiras>Új kábel telepítve</Leiras></Felvetel></Hibajegy>

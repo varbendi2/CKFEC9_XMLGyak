@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- XML dokumentum a hibajegy adatbázis alapján --><Hibajegy>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- XML dokumentum a hibajegy adatbázis alapján --><Hibajegy>
     <!-- Hibajegy 1 -->
-    <HibajegyRecord JegyID="1">
+    <Hibajegy JegyID="1">
         <KapcsolattartoiAdatok>
             <Email>elso@gmail.com</Email>
             <Nev>Varga Bence</Nev>
@@ -13,7 +14,7 @@
                 <HibaLeiras>Nincs kép</HibaLeiras>
             </Hiba>
         </TV>
-        <Telefon>Módosított tartalom</Telefon>
+        <ÚjTelefon>Módosított tartalom</ÚjTelefon>
         <Internet>
             <InternetID>1548155</InternetID>
             <Hiba>
@@ -21,10 +22,10 @@
                 <Leiras>Nincs wifi</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
+    </Hibajegy>
     
     <!-- Hibajegy 2 -->
-    <HibajegyRecord JegyID="2">
+    <Hibajegy JegyID="2">
         <KapcsolattartoiAdatok>
             <Email>kak@gmail.com</Email>
             <Nev>Kakk Ukk</Nev>
@@ -33,11 +34,11 @@
         <TV>
             <MTID>785495789</MTID>
             <Hiba>
-                <Hibakod/>
+                
                 <HibaLeiras>Nincs hang</HibaLeiras>
             </Hiba>
         </TV>
-        <Telefon>
+        <Telefon type="mobile">
             <Telefonszam>36705048557</Telefonszam>
             <Hiba>
                 <Hang>Teljesen süket</Hang>
@@ -51,10 +52,17 @@
                 <Leiras>Nincs internet</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
+    <Telefon type="mobile">
+            <Telefonszam>36705048557</Telefonszam>
+            <Hiba>
+                <Hang>Teljesen süket</Hang>
+                <Leiras>Hívás közben nem hallom a hangot</Leiras>
+            </Hiba>
+        </Telefon>
+</Hibajegy>
     
     <!-- Hibajegy 3 -->
-    <HibajegyRecord JegyID="3">
+    <Hibajegy JegyID="3">
         <KapcsolattartoiAdatok>
             <Email>ubul@gmail.com</Email>
             <Nev>Ubul Feri</Nev>
@@ -81,5 +89,6 @@
                 <Leiras>Csak bepakcsol, nincs internet</Leiras>
             </Hiba>
         </Internet>
-    </HibajegyRecord>
-<ÚjElem>Új tartalom</ÚjElem></Hibajegy>
+    </Hibajegy>
+<ÚjElem>Új tartalom</ÚjElem>
+</Hibajegy>

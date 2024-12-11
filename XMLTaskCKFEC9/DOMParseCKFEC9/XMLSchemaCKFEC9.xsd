@@ -71,27 +71,27 @@
     <xs:element name="Hibajegy">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="HibajegyRecord" type="HibajegyRecordType" maxOccurs="unbounded"/>
+                <xs:element name="Hibajegy" type="HibajegyType" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
 
         <!-- Elsődleges kulcs: JegyID -->
         <xs:key name="HibajegyPrimaryKey">
-            <xs:selector xpath="HibajegyRecord"/>
+            <xs:selector xpath="Hibajegy"/>
             <xs:field xpath="@JegyID"/>
         </xs:key>
 
         <!-- Idegen kulcsok a JegyID-ra mutatnak -->
         <xs:keyref name="TV_JegyID_FK" refer="HibajegyPrimaryKey">
-            <xs:selector xpath="HibajegyRecord/TV"/>
+            <xs:selector xpath="Hibajegy/TV"/>
             <xs:field xpath="@MTID"/>
         </xs:keyref>
         <xs:keyref name="Telefon_JegyID_FK" refer="HibajegyPrimaryKey">
-            <xs:selector xpath="HibajegyRecord/Telefon"/>
+            <xs:selector xpath="Hibajegy/Telefon"/>
             <xs:field xpath="Telefonszam"/>
         </xs:keyref>
         <xs:keyref name="Internet_JegyID_FK" refer="HibajegyPrimaryKey">
-            <xs:selector xpath="HibajegyRecord/Internet"/>
+            <xs:selector xpath="Hibajegy/Internet"/>
             <xs:field xpath="InternetID"/>
         </xs:keyref>
     </xs:element>
